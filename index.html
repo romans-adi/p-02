@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Fork Me! FCC: Test Suite Template</title>
+  <title>Original Trombones</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -14,8 +14,8 @@
 </head>
 
 <body class="bg-gray-200">
-  <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
-  <header id="header" class="flex justify-between px-24 my-6">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <header id="header" class="flex justify-between px-24 py-6 fixed top-0 left-0 right-0">
     <div class="w-64">
       <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img"
         width="100%" height="auto" />
@@ -23,22 +23,24 @@
 
     <nav id="nav-bar" class="flex">
       <ul class="flex gap-x-12">
-        <li class="nav-link" href="#features">Features</li>
-        <li class="nav-link" href="#hiw">How It Works</li>
-        <li class="nav-link" href="#pricing">Pricing</li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#hiw">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
       </ul>
     </nav>
   </header>
-  <section id="hero" class="flex flex-col items-center mb-24">
+
+  <section id="hero" class="flex flex-col items-center mt-12 mb-24">
     <h2 class="text-2xl font-bold">Handcrafted, home-made masterpieces</h2>
-    <form id="form" action="#" class="flex flex-col gap-y-3 mt-6 justify-center items-center">
+    <form id="form" action="https://www.freecodecamp.com/email-submit"
+      class="flex flex-col gap-y-3 mt-6 justify-center items-center">
       <input name="email" id="email" type="email" placeholder="Enter your email address" required=""
         class="border border-zinc-600 py-0.5 px-1 w-72 text-sm">
       <input id="submit" type="submit" value="Get Started"
         class="btn bg-yellow-400 px-2 py-0.5 tracking-wide w-36 text-center justify-center uppercase font-bold">
     </form>
   </section>
-  <div class="container mx-auto">
+  <div class="container mx-auto px-12">
     <main>
       <section id="features" class="px-12 grid gap-y-6 mb-24">
         <div class="grid grid-cols-5">
@@ -127,18 +129,18 @@
       </section>
     </main>
 
-    <footer id="footer" class="mx-auto w-1/2 bg-gray-600">
+    <footer id="footer" class="mx-auto w-3/4 px-8 py-6 bg-gray-300">
       <div class="footer-links">
-        <ul class="flex gap-4 text-sm">
+        <ul class="flex justify-end gap-4">
           <li>Privacy</li>
           <li>Terms</li>
           <li>Contacts</li>
         </ul>
       </div>
-      <div class="copyright">
-        <span class="text-sm">Copyright 2016, Original Trombones</span>
-      </div>
 
+      <div class="copyright text-right">
+        <span class="text-sm text-gray-600">Copyright 2016, Original Trombones</span>
+      </div>
     </footer>
   </div>
 
